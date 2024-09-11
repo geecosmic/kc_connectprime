@@ -139,11 +139,6 @@ if z in p:
 
 
 
-#     y = (f'{z}th of {y}, {x}')
-    
-# else:
-#     y = (f'{z}th of {y}, {x}')
-                
 
 
 
@@ -167,7 +162,6 @@ img1 = CTkImage(light_image=Image.open(src+str(k)+".png"),
 img2 = CTkImage(light_image=Image.open(src+str(m)+".png"), 
     dark_image=Image.open(src+str(m)+".png"),size=(90,40))
 
-# dic ={"a":"bone/a1.png"}
 
 label = CTkLabel(master=frame,text="", image=img1)
 # label.place(relx=0.13,rely=0.18)
@@ -208,8 +202,7 @@ label1.place(relx=0.4,rely=0.72)
 label1 = CTkLabel(master=frame,text="Account Name:- Shlomo and Shlomo Consult.\nBank Name:- Access\nAccount Number:- 1225959863", font=("Arial", 13,))
 label1.place(relx=0.27,rely=0.77)
 
-# label1 = CTkLabel(master=frame,text="SHALOM ALECHEM", font=("ALGERIAN", 43))
-# label1.place(relx=0.18,rely=0.86)  
+
 
 
 
